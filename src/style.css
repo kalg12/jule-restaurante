@@ -15,7 +15,7 @@
 .nav-link{
     font-family: 'Cantata One', serif;
     color: rgb(255, 255, 255) !important;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .navbar-brand{
@@ -29,5 +29,25 @@
 }
 
 .navbar-light .navbar-toggler-icon{
-    background-image: url(./img/flame.png);
+    background-image: url(/src/img/menu-icon-white.png);
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+
+@media (max-width: 991px){
+    .bg-light{
+        background-color: #461106;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav-link{
+        font-family: 'Cantata One', serif;
+        color: rgb(255, 255, 255) !important;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+    }
 }
