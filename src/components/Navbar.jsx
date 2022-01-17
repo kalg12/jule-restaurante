@@ -27,7 +27,7 @@ export const Navbar = () => {
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="/">
-                                Buffet
+                                Menú Buffet
                             </a>
                             </li>
                             <li className="nav-item">
@@ -37,7 +37,7 @@ export const Navbar = () => {
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="/">
-                                Galería
+                                Blog
                             </a>
                             </li>
                             <li className="nav-item">
