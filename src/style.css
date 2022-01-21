@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -47,7 +48,44 @@
     transition: 0.5s;
 }
 
+/* Header inicio */
 
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(/src/img/cover-img.jpg);
+    background-size: cover;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.cover-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    order: 1;
+    margin-left: 12.5%;
+}
+
+.cover-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    order: 2;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.cover-text h1{
+    font-family: 'Cantata One', serif;
+    font-size: 1.5rem;
+    color: #70200D;
+    text-shadow: 1px 1px #e28214;
+    text-align: center;
+}
 
 
 @media (max-width: 991px){
@@ -64,4 +102,33 @@
         display: flex;
         justify-content: center;
     }
+
+    .cover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/src/img/cover-img.jpg);
+        background-size: cover;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .cover-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .cover-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
 }
+
