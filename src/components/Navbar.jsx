@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
@@ -16,39 +17,39 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/inicio">
                                 Inicio
-                            </a>
+                            </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/concepto">
                                 Concepto
-                            </a>
+                            </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/menu">
                                 Menú Buffet
-                            </a>
+                            </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/eventos">
                                 Eventos
-                            </a>
+                            </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/blog">
                                 Blog
-                            </a>
+                            </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/reservaciones">
                                 Reservaciones
-                            </a>
+                            </Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <Link className="nav-link" to="/contacto">
                                 Contacto
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
