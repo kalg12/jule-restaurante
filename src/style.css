@@ -87,6 +87,43 @@
     text-align: center;
 }
 
+/* Concepto */
+
+.cover-concepto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jule-restaurant.appspot.com/o/Fondo-concepto.jpg?alt=media&token=48034850-931f-4b33-b926-edaf70fe125f);
+    background-size: cover;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.cover-text-concepto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover-text-concepto h1{
+    font-family: 'Cantata One', serif;
+    font-size: 1.5rem;
+    color: #70200D;
+    text-shadow: 1px 1px #e28214;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cover-text-concepto p {
+    font-family: 'Cantata One', serif;
+    font-size: 1rem;
+    color: #70200D;
+    text-shadow: 1px 1px #e28214;
+    text-align: center;
+}
+
+
 
 @media (max-width: 991px){
     .bg-light{
