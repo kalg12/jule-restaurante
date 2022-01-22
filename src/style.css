@@ -7,6 +7,12 @@
     overflow-x: hidden;
 }
 
+body{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jule-restaurant.appspot.com/o/Fondo-concepto.jpg?alt=media&token=48034850-931f-4b33-b926-edaf70fe125f);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /* Menu Styles */
 .bg-light{
@@ -123,6 +129,65 @@
     text-align: center;
 }
 
+/* Menú Buffet */
+
+.cover-buffet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.card{
+    background-color: transparent;
+    border: 2px solid #5B1609;
+}
+
+.text-primary{
+    color: #E5A30C !important;
+    font-size: 2rem;
+}
+
+.menu-hours{
+    margin: 5px 0 5px 0;
+    font-family: 'Cantata One', serif;
+    font-size: 1rem;
+    color: #70200D;
+    text-align: center;
+}
+
+.align-items-start{
+    align-items: center !important;
+}
+
+.cover-text-buffet h1{
+    margin-top: 15px;
+    font-family: 'Cantata One', serif;
+    font-size: 1.5rem;
+    color: #70200D;
+    text-shadow: 1px 1px #e28214;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-text ul li{
+    font-family: 'Cantata One', serif;
+    font-size: 1rem;
+    color: #70200D;
+    text-shadow: 1px 1px #e28214;
+    text-align: center;
+    list-style: none;
+}
+
+.card-text p{
+    font-family: 'Cantata One', serif;
+    font-size: 1rem;
+    color: #70200D;
+    text-shadow: 1px 1px #e28214;
+    text-align: center;
+    list-style: none;
+}
 
 
 @media (max-width: 991px){
