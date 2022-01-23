@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jule-restaurante/static/css/main.ebea356e.css",
+    "main.js": "/jule-restaurante/static/js/main.6b9f953e.js",
+    "static/media/cover-img.jpg": "/jule-restaurante/static/media/cover-img.461078a9ef2fc0f68281.jpg",
+    "static/media/Menu-bg.jpg": "/jule-restaurante/static/media/Menu-bg.0d4459534cecfa2cf7d8.jpg",
+    "index.html": "/jule-restaurante/index.html",
+    "main.ebea356e.css.map": "/jule-restaurante/static/css/main.ebea356e.css.map",
+    "main.6b9f953e.js.map": "/jule-restaurante/static/js/main.6b9f953e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebea356e.css",
+    "static/js/main.6b9f953e.js"
+  ]
+}
