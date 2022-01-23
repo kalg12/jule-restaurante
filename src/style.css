@@ -245,7 +245,6 @@ body{
     align-items: center;
     background-image: url(https://firebasestorage.googleapis.com/v0/b/jule-restaurant.appspot.com/o/reservaciones-brochetas.jpg?alt=media&token=1c30ff10-1c50-4958-82c0-bd44860a279b);
     background-size: cover;
-    height: 80vh;
     flex-direction: column;
 }
 
