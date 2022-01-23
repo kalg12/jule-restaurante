@@ -238,6 +238,65 @@ body{
     border-radius: 5px;
 }
 
+/* Reservaciones */
+.cover-reservaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jule-restaurant.appspot.com/o/reservaciones-brochetas.jpg?alt=media&token=1c30ff10-1c50-4958-82c0-bd44860a279b);
+    background-size: cover;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.cover-form-reservaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-background{
+    background-color: #5A1607;
+    border: none;
+    opacity: 0.93;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.cover-form-reservaciones label{
+    font-family: 'Cantata One', serif;
+    font-size: 1rem;
+    color: #f1d557;
+    text-shadow: 1px 1px #ff0000;
+    text-align: center;
+}
+
+/* Contacto */
+
+.cover-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jule-restaurant.appspot.com/o/contacto-cover.png?alt=media&token=d310f6e6-64b0-4d87-a77a-0a06912b281b);
+    background-size: cover;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.contacto-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
 @media (max-width: 991px){
     .bg-light{
         background-color: #461106;
