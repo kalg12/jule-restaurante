@@ -1,3 +1,30 @@
+# Jule Restaurant - Proyecto React
+
+Este proyecto (Restaurante) fue desarollado con React. Inspirado en Jule Do Brasil Churrascaría
+
+![web-jule](https://i.imgur.com/3ojBFN9.jpg)
+
+Las imágenes e información del sitio fue tomado del sitio oficial https://juleacapulco.com/ con efecto educativo.
+
+## Puede visualizar el deployment en 🌎🚀:
+[https://kalg12.github.io/jule-restaurante/](https://kalg12.github.io/jule-restaurante/)
+
+## Tecnologías usadas:
+
+- [x] HTML
+- [x] CSS
+- [x] JavaScript
+- [x] JSON
+- [x] Firebase
+- [x] Git Config
+- [x] MarkDown
+
+## Paquetes NPM utilizados
+
+- [x] react-router-dom
+- [x] firebase
+- [x] gh-pages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
