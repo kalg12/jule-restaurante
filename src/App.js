@@ -12,7 +12,7 @@ import { Reservaciones } from './components/Reservaciones';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/React'>
       <Navbar />
       <Switch>
         <Route path='/contacto'> <Contacto /> </Route>
