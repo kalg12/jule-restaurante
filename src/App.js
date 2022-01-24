@@ -12,7 +12,7 @@ import { Reservaciones } from './components/Reservaciones';
 
 function App() {
   return (
-    <Router basename='/jule-restaurant'>
+    <Router basename='/'>
       <Navbar />
       <Switch>
         <Route path='/contacto'> <Contacto /> </Route>
