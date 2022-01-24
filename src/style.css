@@ -190,6 +190,13 @@ body{
 }
 
 /* Blog */
+
+.card{
+    background-color: transparent;
+    border: 2px solid #5B1609;
+    margin : 5px 0 5px 0;
+}
+
 .cover-blog{
     display: flex;
     justify-content: center;
@@ -209,12 +216,12 @@ body{
 }
 
 .blog-section{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    grid-gap: 20px;
-    justify-items: center;
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .img-blog{
@@ -284,7 +291,7 @@ body{
     align-items: center;
     background-image: url(https://firebasestorage.googleapis.com/v0/b/jule-restaurant.appspot.com/o/contacto-cover.png?alt=media&token=d310f6e6-64b0-4d87-a77a-0a06912b281b);
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     flex-direction: column;
 }
 
@@ -336,6 +343,15 @@ body{
         align-items: center;
         flex-direction: column;
         margin-left: 0%;
+    }
+
+    .blog-section{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 }
