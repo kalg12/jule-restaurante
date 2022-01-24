@@ -12,8 +12,8 @@ import { Reservaciones } from './components/Reservaciones';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
+    <Router basename='/index.html'>
+      <Navbar/>
       <Switch>
         <Route path='/contacto'> <Contacto /> </Route>
         <Route path='/reservaciones'> <Reservaciones /> </Route>
