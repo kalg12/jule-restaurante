@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jule-restaurant/static/css/main.ef52d264.css",
-    "main.js": "/jule-restaurant/static/js/main.fa7f7384.js",
+    "main.js": "/jule-restaurant/static/js/main.49a68f66.js",
     "static/media/cover-img.jpg": "/jule-restaurant/static/media/cover-img.461078a9ef2fc0f68281.jpg",
     "static/media/Menu-bg.jpg": "/jule-restaurant/static/media/Menu-bg.0d4459534cecfa2cf7d8.jpg",
     "index.html": "/jule-restaurant/index.html",
     "main.ef52d264.css.map": "/jule-restaurant/static/css/main.ef52d264.css.map",
-    "main.fa7f7384.js.map": "/jule-restaurant/static/js/main.fa7f7384.js.map"
+    "main.49a68f66.js.map": "/jule-restaurant/static/js/main.49a68f66.js.map"
   },
   "entrypoints": [
     "static/css/main.ef52d264.css",
-    "static/js/main.fa7f7384.js"
+    "static/js/main.49a68f66.js"
   ]
 }
